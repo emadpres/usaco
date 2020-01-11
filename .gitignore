@@ -1,3 +1,4 @@
 *.dSYM
 *.app
 *.out
+.vscode/settings.json
