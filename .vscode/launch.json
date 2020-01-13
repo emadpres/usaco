@@ -5,17 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "launch-ea",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
+            "name": "Debug-ea",
             "program": "${fileDirname}/${fileBasenameNoExtension}.app",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "preLaunchTask": "build-ea",
-            "MIMode": "lldb"
+            "preLaunchTask": "build-ea"
         }
     ]
 }

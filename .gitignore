@@ -2,3 +2,4 @@
 *.app
 *.out
 .vscode/settings.json
+playground/
